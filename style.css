@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+}
+div{
+    width: 50%;
+    margin:3px 25%;
+  
+}
+
+div img{
+    display:block;
+    opacity: 0;
+}
+
+.anima{
+    animation: show 1s forwards
+}
+
+@keyframes show{
+    from{
+        opacity:0;
+        transform:translate3d(-60px, 0, 0 )
+    }
+    to{
+        opacity: 1;
+        transform:translate3d(0px, 0, 0 )
+    }
+}
